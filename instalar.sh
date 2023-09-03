@@ -1,4 +1,4 @@
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 #instalar php
 
     sudo apt install php
@@ -29,7 +29,7 @@ sudo apt update && sudo apt upgrade
         cd ..
         cd ..
         #nano .bashrc
-            export PATH=$PATH:$HOME/gitpod/.config/composer/bin
+            export PATH=$PATH:$HOME/nomedoperfil/.config/composer/bin
         source ~/.bashrc
         sudo apt-get install nginx -y
         /etc/init.d/apache2 stop
