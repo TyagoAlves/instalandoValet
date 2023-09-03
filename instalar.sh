@@ -1,4 +1,4 @@
-
+sudo apt update && sudo apt upgrade
 #instalar php
 
     sudo apt install php
